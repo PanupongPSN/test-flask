@@ -22,7 +22,7 @@ jQuery(document).ready(function($) {
 
         // Send AJAX request to Flask API
         $.ajax({
-            url: 'https://your-heroku-app.herokuapp.com/predict', // URL ของ Flask API ที่ต้องรันอยู่ใน LocalWP
+            url: 'http://127.0.0.1:5000/predict', // URL ของ Flask API ที่ต้องรันอยู่ใน LocalWP
             type: 'POST',
             data: formData,
             processData: false,
