@@ -88,7 +88,7 @@ def predict():
         print(f"Prediction error: {str(e)}")  # แสดงข้อความแสดงข้อผิดพลาดใน console
         return jsonify({'error': f'Prediction error: {str(e)}'}), 500
 
-if name == 'main':
+if name == 'appy':
     app.run(debug=True, host='0.0.0.0', port=5000)
 
   # รันเซิร์ฟเวอร์ Flask บนพอร์ต 5000
